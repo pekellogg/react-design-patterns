@@ -1,2 +1,7 @@
-const LeftHand = () => <h1>Left!</h1>;
+const LeftHand = ({ components, mainHeader }) => (
+  <>
+    <h1>{ mainHeader }</h1>
+    { components }
+  </>
+);
 export default LeftHand;

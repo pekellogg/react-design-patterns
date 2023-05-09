@@ -7,7 +7,9 @@ const SplitScreen = ({
   rightWeight = 1,
 }) => {
   const [left, right] = children;
+
   return (
+    // flex container
     <Container>
       <Pane weight={leftWeight}>
         { left }
