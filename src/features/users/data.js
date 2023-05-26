@@ -1,4 +1,4 @@
-const people = [{
+const users = [{
 	name: 'John Doe',
 	age: 54,
 	hairColor: 'brown',
@@ -15,4 +15,4 @@ const people = [{
 	hobbies: ['biology', 'medicine', 'gymnastics'],
 }];
 
-export default people;
+export default users;
